@@ -9,6 +9,7 @@ variables:
   dockerHub: 'sgbytes'
   dockerfilePath: app/Dockerfile
   dockerRegistryServiceConnection: sgbytesAzureConatinerRegistry
+  tag: 1.0
 
 steps:
     - task: Docker@2
